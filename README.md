@@ -1,6 +1,6 @@
-### FutuAPI
+# FutuAPI
 
-# Configuration
+## 1, Configuration
 
 下载富途API:
 ```
@@ -15,7 +15,7 @@ pip install futu
 在客户端输入用户名密码(第一次登陆会要求认证)。
 
 
-# Start
+## 2, Start
 
 返回Python,获取数据：
 
