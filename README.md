@@ -17,11 +17,13 @@ pip install futu
 
 ## 2, Start
 
-返回Python,获取数据：
+返回Python,获取市场快照数据：
 
 ```
 from futu import *
+import pandas as pd
 quote_ctx = OpenQuoteContext(host='127.0.0.1', port=11111)
-print(quote_ctx.get_market_snapshot('HK.00700'))
+ret, data = quote_ctx.get_market_snapshot('HK.00700')
 quote_ctx.close() 
+data.head()
 ```
